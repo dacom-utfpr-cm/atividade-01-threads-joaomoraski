@@ -20,7 +20,7 @@ public class ThreadsEx02 implements Runnable {
                 String[] phrases = line.split(" ");
                 for (String phrase : phrases) {
                     System.out.printf(phrase + " ");
-                    Thread.sleep(1 * 1000L);
+                    Thread.sleep(10 * 1000L); // precisei arrumar o tempo, estava apenas com 1 seg
                 }
             }
         } catch (IOException | InterruptedException e) {
