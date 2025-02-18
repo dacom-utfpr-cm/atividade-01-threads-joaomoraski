@@ -12,7 +12,7 @@ public class Atividade05 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.printf("Soma final: %d", threadsEx05.getSum());
+        System.out.printf("Soma final: %d\n", threadsEx05.getSum());
     }
 
 }
